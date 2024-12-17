@@ -31,7 +31,7 @@
   
   <section class="spa-page container-fluid" id="form">
     <h3>Hi, I am the owner of this vehicle.</h3>
-    <p>Contact me below, if needed. You may come back to this page later to check if I have replied.</p>
+    <p>Contact me by clicking the <strong>Post</strong> button below. You may come back to this page later to check if I have replied.</p>
     <form name="contact" method="POST" target="form_iframe" onsubmit="document.getElementsByName('form_iframe')[0].style='background:url(https://img.icons8.com/material-outlined/30/spinner-frame-2.png) no-repeat';">
       <input type="hidden" name="FormID" value="car@formonit">
       <input type="hidden" name="ChatID" id="chatID">
@@ -41,11 +41,11 @@
           <label for="reasonInput" class="form-label"><strong>What is the problem?</strong></label>
           <select id="reasonInput" class="form-select" name="Reason" autocomplete="on" required>
             <option selected>Please select one from this list</option>
-            <option value="Move the vehicle">The vehicle needs to be moved</option>
-            <option value="Vehicle getting towed">The vehicle is getting towed</option>
-            <option value="Vehicle getting damaged">The vehicle is damaged / accident</option>
-            <option value="Looking for owner">Someone / police / authorities looking for the owner</option>
-            <option value="Message">None of the above. Please write details in message below.</option>
+            <option>The vehicle needs to be moved</option>
+            <option>The vehicle is getting towed</option>
+            <option>The vehicle is damaged / accident</option>
+            <option>Someone / police / authorities looking for the owner</option>
+            <option>None of the above. Please write details in message below.</option>
           </select>
       </div>
       <div class="mt-2">
