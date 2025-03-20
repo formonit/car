@@ -33,16 +33,11 @@
     <p>Sorry, the page you are looking for couldn't be found.</p>
   </section>
   
-  <form name="viewCounter" method="POST" target="hidden_iframe" hidden>
-    <input name="FormID" value="_view_vehicle">
-  </form>
-  <iframe name="hidden_iframe" src="about:blank" hidden></iframe>
-  
   <section class="spa-page container-fluid" id="form">
     <h3>Hi, I am the owner of this vehicle.</h3>
     <p>Contact me by clicking the <strong>Post</strong> button below. You may come back to this page later to check if I have replied.</p>
     <form name="contact" method="POST" target="form_iframe" onsubmit="document.getElementsByName('form_iframe')[0].style='background:url(https://img.icons8.com/material-outlined/30/spinner-frame-2.png) no-repeat';">
-      <input type="hidden" name="FormID" value="car@formonit">
+      <input type="hidden" name="FormID" value="vehicle@formonit">
       <input type="hidden" name="ChatID">
       <input type="hidden" name="Location">
 
